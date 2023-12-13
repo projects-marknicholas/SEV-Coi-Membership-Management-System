@@ -1,0 +1,98 @@
+::-webkit-scrollbar{
+	display: none;
+}
+:root{
+	--theme-bg:  #c0c0c0; 	
+	--theme-white: #ffffff;
+	--theme-darkgrey: #5C5A52;
+	--theme-green: #006400;
+	--theme-red: #dc3545;
+	--theme-orange: #FFA500;
+	--theme-lightblue:  #52B0F7;
+}
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: arial;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+html, body::before{
+	box-sizing: border-box;
+}
+html, body::after{
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	background: var(--theme-bg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/* ====================
+Start
+=====================*/
+.wrapper{
+	background: var(--theme-white);
+	width: fit-content;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.portal-logo{
+	height: 80px;
+	width: 100px;
+	display: block;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+p{
+	text-align: center;
+	font-family: brush script mt;
+	font-size: 1.1em;
+}
+label{
+	font-size: .6em;
+	text-transform: uppercase;
+	color: var(--theme-darkgrey);
+}
+.form-control{
+	width: calc(250px - 14px);
+	padding: 7px;
+	outline: none;
+	border: none;
+	background-color: var(--theme-white);
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.btn{
+	padding: 7px 30px;
+	background-color: var(--theme-bg);
+	border: none;
+	outline: none;
+	font-family: arial;
+	font-size: 1em;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.forgot{
+	font-size: .7em;
+	color: blue;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
